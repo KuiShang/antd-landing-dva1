@@ -1,0 +1,15 @@
+{
+  "entry": "src/index.js",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        ["import", { "libraryName": "antd", "style": true }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        ["import", { "libraryName": "antd", "style": true }]
+      ]
+    }
+  }
+}
